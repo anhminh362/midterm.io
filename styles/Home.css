@@ -10,12 +10,29 @@
     margin: 0;
     font-size: 20px;
 }
+.nav-quick-menu .quick-intro .quick-intro-content p {
+    font-size: 15px;
+    color: #545454;
+    line-height: 1.6;}
 header.header.header-index .header__left p a {
     color: #fff;
 }
 header.header .header__left p a {
     color: #000;
 }
+.nav-quick-menu{
+    padding-bottom: 20px;
+}
+.nav-quick-menu .fix-flex .fix-padding {
+    padding: 0;
+}
+@media (min-width: 992px)
+{.col-md-6 {
+    width: 50%;
+}}
+@media (min-width: 992px)
+{.col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9 {
+    float: left;}}
 
 a, .text-link {
     color: #0657a3;
