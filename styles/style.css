@@ -89,6 +89,9 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
     margin-left: auto;
     margin-right: auto;
 }
+.banner-img img{
+    filter: brightness(50%);
+    }
 /* .section_san_pham .evo-index-product-contain .evo-block-product-slick .evo-product-block-item .product-thumb img {
     width: auto !important;
     max-height: 100%;
